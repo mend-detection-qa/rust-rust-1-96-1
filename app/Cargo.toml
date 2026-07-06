@@ -1,0 +1,16 @@
+[package]
+name    = "probe-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Workspace path dependency — inter-member local source.
+probe-core = { path = "../core" }
+
+# Additional registry deps to widen the registry-fetch surface.
+serde     = { workspace = true }
+log       = { workspace = true }
+
+# env_logger: real crate from crates.io; its own transitive deps
+# (humantime, regex, etc.) deepen the registry-source coverage.
+env_logger = "0.11.5"
