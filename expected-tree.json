@@ -1,0 +1,590 @@
+{
+  "generated_at": "2026-07-06T12:00:00Z",
+  "packages": {
+    "aho-corasick": {
+      "dependencies": [
+        "memchr"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "8e60d3430d3a69478ad0993f19238d2df97c507009a52b3c10addcd7f6bcb916"
+      },
+      "version": "1.1.3"
+    },
+    "anstream": {
+      "dependencies": [
+        "anstyle",
+        "anstyle-parse",
+        "anstyle-query",
+        "anstyle-wincon",
+        "colorchoice",
+        "is_terminal_coloring",
+        "utf8parse"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "8acc5369981196006228e28809f761875c0327210a891e941a8a5741507a6aa5"
+      },
+      "version": "0.6.18"
+    },
+    "anstyle": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "55cc3b69f167a1ef2e161439aa98aed94e6028e5f9a59be9a6ffb47aef1651f9"
+      },
+      "version": "1.0.10"
+    },
+    "anstyle-parse": {
+      "dependencies": [
+        "utf8parse"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "3b2d16507662817a6a20a9ea92df6652ee4f94f914589377d69f3b21bc5798a9"
+      },
+      "version": "0.2.6"
+    },
+    "anstyle-query": {
+      "dependencies": [
+        "windows-sys"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "79947af37f4177cfead1492f0d4451aa5ebb49c3b8db3d8bd4e2e4c6699fb474"
+      },
+      "version": "1.1.2"
+    },
+    "anstyle-wincon": {
+      "dependencies": [
+        "anstyle",
+        "windows-sys"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "2109dbce0e72be3ec00bed26e6a7479ca384ad226efdd66db8fa2e3a38c83125"
+      },
+      "version": "3.0.6"
+    },
+    "bitflags": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "b048fb63fd8b5923fc5aa7b340d8e156aec7ec02f0c78fa8a6ddc2613f6f71de"
+      },
+      "version": "2.6.0"
+    },
+    "colorchoice": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "5b63caa9aa9397e2d9480a9b13673510c4491d906a952b8aea57f4f9e56a2bdf"
+      },
+      "version": "1.0.3"
+    },
+    "env_filter": {
+      "dependencies": [
+        "log",
+        "regex"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "186c49efa7dd8a96ef96f9f1e47be22c4c8df49eabc8f00f39d18ce5e40fb45"
+      },
+      "version": "0.1.3"
+    },
+    "env_logger": {
+      "dependencies": [
+        "anstream",
+        "anstyle",
+        "env_filter",
+        "humantime",
+        "log"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "e13fa862a880a0dc5149c872f2cab8f40e15d6cb88a524a3dc6cfa5e8c9b58af"
+      },
+      "version": "0.11.5"
+    },
+    "errno": {
+      "dependencies": [
+        "libc",
+        "windows-sys"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "33d852cb9b869c87b11e7f06ab2c6c5e0f4ad54ff5b9e3e37a72bd06a4f1780"
+      },
+      "version": "0.3.10"
+    },
+    "humantime": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "9a3a5bfb195931eeb336b2a7b4d761daec841b97f947d34394601737a7bba5e4"
+      },
+      "version": "2.1.0"
+    },
+    "is_terminal_coloring": {
+      "dependencies": [
+        "rustix",
+        "windows-sys"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "f49b5dd6f8b3f5f5c921c8dbb4c73a11cc7bddfc1c09ae2e0b19ccf88e7c74a1"
+      },
+      "version": "0.1.3"
+    },
+    "itoa": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "d75a2a4b1b190afb6f5425f10f6a8f959d2ea0b9c2b1d79553551850539e4674"
+      },
+      "version": "1.0.14"
+    },
+    "libc": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "d750af042f75ef44aeef6b4b5b1be2d4e76fe2ce93b1d4eaabb741dea9f4e28c"
+      },
+      "version": "0.2.172"
+    },
+    "linux-raw-sys": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "d26c52dbd32dccf2d10cac7725f8eae5296fdbf73fc05c61a1c03db3c9b2ebe0"
+      },
+      "version": "0.4.15"
+    },
+    "log": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "a7a70ba024b9dc04c27ea2f0c0548feb474ec5c54bba33a7f72f873a39d07b24"
+      },
+      "version": "0.4.22"
+    },
+    "memchr": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3"
+      },
+      "version": "2.7.4"
+    },
+    "once_cell": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "945462a4181ad83265217cff3e6b66a7ed7e4658c57e8d12ea4b70c5c86d0b89"
+      },
+      "version": "1.20.3"
+    },
+    "probe-app": {
+      "dependencies": [
+        "env_logger",
+        "log",
+        "probe-core",
+        "serde"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "local",
+      "source_detail": {
+        "path": "app"
+      },
+      "version": "0.1.0"
+    },
+    "probe-core": {
+      "dependencies": [
+        "log",
+        "once_cell",
+        "serde",
+        "thiserror",
+        "tinytemplate"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "local",
+      "source_detail": {
+        "path": "core"
+      },
+      "version": "0.1.0"
+    },
+    "proc-macro2": {
+      "dependencies": [
+        "unicode-ident"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "37d3544b3f2748c54e147655edb5025752e2303145b5aefb3c3ea2c78b973bb0"
+      },
+      "version": "1.0.92"
+    },
+    "quote": {
+      "dependencies": [
+        "proc-macro2"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "0e4dccaaaf89514f546c693ddc140f729f958575091fd9df4cd2d5aa5aaefd18"
+      },
+      "version": "1.0.38"
+    },
+    "regex": {
+      "dependencies": [
+        "aho-corasick",
+        "memchr",
+        "regex-automata",
+        "regex-syntax"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "b544ef1b4eac5dc2db33ea63606ae9ffcfac26c1416a2806ae0bf5f56b201191"
+      },
+      "version": "1.11.1"
+    },
+    "regex-automata": {
+      "dependencies": [
+        "aho-corasick",
+        "memchr",
+        "regex-syntax"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "809e8dc61f6de73b46c85f4c96486bb9b3c6d3816ceb703ed5b10b8c6f3a5a5"
+      },
+      "version": "0.4.9"
+    },
+    "regex-syntax": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "2b15c43186be67a4fd63bee50d0303afffcef381492ebe2c5d87f324e1b8815c"
+      },
+      "version": "0.8.5"
+    },
+    "rustix": {
+      "dependencies": [
+        "bitflags",
+        "errno",
+        "libc",
+        "linux-raw-sys",
+        "windows-sys"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "a78891ee6bf2340288408954ac787aa063d8e8817e9f53abb37c695c6d834ef6"
+      },
+      "version": "0.38.43"
+    },
+    "ryu": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "f3cb5ba0dc43242ce17de99c180e96db90b235b8a9fdc9543c96d2209116bd9f"
+      },
+      "version": "1.0.18"
+    },
+    "serde": {
+      "dependencies": [
+        "serde_derive"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "5f0e2c6ed6606019b4e29a39358ad9a73a519c4a6cf7e8e89a224a19b4290c3",
+        "features": [
+          "derive"
+        ]
+      },
+      "version": "1.0.219"
+    },
+    "serde_derive": {
+      "dependencies": [
+        "proc-macro2",
+        "quote",
+        "syn"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "5b0276cf7f2c73365f7157c8123c21cd9a50fbbd844757af28ca1f5925fc2a00"
+      },
+      "version": "1.0.219"
+    },
+    "serde_json": {
+      "dependencies": [
+        "itoa",
+        "memchr",
+        "ryu",
+        "serde"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "20068b6e96dc6c9bd23e01df8827e6c7e1f2fddd43c21810382803c136b99373"
+      },
+      "version": "1.0.140"
+    },
+    "syn": {
+      "dependencies": [
+        "proc-macro2",
+        "quote",
+        "unicode-ident"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "8ce2b7fc941b3a24138a0a7cf8e858bfc6a992e7978a068a5c760deb0ed43caf"
+      },
+      "version": "2.0.101"
+    },
+    "thiserror": {
+      "dependencies": [
+        "thiserror-impl"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "567b8a2dae586314f7be2a752ec7474332959c6460e02bde30d702a66d488708"
+      },
+      "version": "2.0.12"
+    },
+    "thiserror-impl": {
+      "dependencies": [
+        "proc-macro2",
+        "quote",
+        "syn"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "7f7cf42b4507d8ea322120659672cf1b9dbb93f8f2d4ecfd6e51397fc070de9d"
+      },
+      "version": "2.0.12"
+    },
+    "tinytemplate": {
+      "dependencies": [
+        "serde",
+        "serde_json"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "git",
+      "source_detail": {
+        "commit_sha": "d0f45f0c3df21db7d82b1e1c3bfe3ca9e14f11d1",
+        "ref": "v1.2.1",
+        "url": "https://github.com/bheisler/TinyTemplate"
+      },
+      "version": "1.2.1"
+    },
+    "unicode-ident": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "adb9e6ca4f869e1180728b7950e35922a7fc6397f7b641499e8f3ef06e50dc83"
+      },
+      "version": "1.0.14"
+    },
+    "utf8parse": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "06abde3611657f26af5b4bbe97c09e7c5a4acc3c3f8beecb4d5fa5498c1c2a23"
+      },
+      "version": "0.2.2"
+    },
+    "windows-sys": {
+      "dependencies": [
+        "windows-targets"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "282be5f36a8ce781fad8c8ae18fa3f9beff57ec1b52cb3de0789201425d9a33d"
+      },
+      "version": "0.52.0"
+    },
+    "windows-targets": {
+      "dependencies": [
+        "windows_aarch64_gnullvm",
+        "windows_aarch64_msvc",
+        "windows_i686_gnu",
+        "windows_i686_gnullvm",
+        "windows_i686_msvc",
+        "windows_x86_64_gnu",
+        "windows_x86_64_gnullvm",
+        "windows_x86_64_msvc"
+      ],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "9b724f72796e036ab90c1021d4780d4d3d648aca59e491e6b98e725b84e99973"
+      },
+      "version": "0.52.6"
+    },
+    "windows_aarch64_gnullvm": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "32a4622180e7a0ec044bb555404c800bc9fd9ec262ec147edd5989ccd0c02cd3"
+      },
+      "version": "0.52.6"
+    },
+    "windows_aarch64_msvc": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "09ec2a7bb152e2252b53fa7803150007879548bc709c039df7627cabbd05d469"
+      },
+      "version": "0.52.6"
+    },
+    "windows_i686_gnu": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "8e9b5ad5ab802e97eb8e295ac6720e509ee4c243f69d781394d8246d9a04e466"
+      },
+      "version": "0.52.6"
+    },
+    "windows_i686_gnullvm": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "0eee52d38c090b3caa76c563b86c3a4bd71ef1a819287c19d586d7334ae8ed66"
+      },
+      "version": "0.52.6"
+    },
+    "windows_i686_msvc": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "240948bc05c5e7c6dabba28bf89d89ffce3e303022809e73deaefe4f6ec56c66"
+      },
+      "version": "0.52.6"
+    },
+    "windows_x86_64_gnu": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "147a5c80aabfbf0c7d901cb5895d1de30ef2907eb21fbbab29ca94c5b08b1a78"
+      },
+      "version": "0.52.6"
+    },
+    "windows_x86_64_gnullvm": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "24d5b23dc417412679681396f2b49f3de8c1473deb516bd34410872eff51ed0d"
+      },
+      "version": "0.52.6"
+    },
+    "windows_x86_64_msvc": {
+      "dependencies": [],
+      "group": "main",
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "checksum": "589f6da84c646204747d1270a2a5661ea4dfd4641e28b9d5a3e4e874a10e000d"
+      },
+      "version": "0.52.6"
+    }
+  },
+  "pm": "cargo",
+  "pm_version_tested": "1.70",
+  "pm_version_under_test": "1.96.1",
+  "root": {
+    "dependencies": [
+      "probe-app",
+      "probe-core"
+    ],
+    "name": "bundled-pm-change-1.96.1",
+    "version": "0.0.0"
+  },
+  "schema_version": "1.2",
+  "source_file": "/opt/qa-detection-agents/output/_call-c79a633b04ec/cargo/bundled-pm-change-1.96.1-20260706-120000/Cargo.toml"
+}
