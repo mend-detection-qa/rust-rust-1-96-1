@@ -1,0 +1,24 @@
+[workspace]
+members = ["app", "core"]
+resolver = "2"
+
+# Workspace-level dependencies (inherited by members via dep.workspace = true).
+# Introduced in Rust 1.64; exercised here to verify Mend resolves
+# workspace.dependencies inheritance correctly under Rust 1.96.1.
+[workspace.dependencies]
+serde       = { version = "1.0.219", features = ["derive"] }
+log         = "0.4.22"
+thiserror   = "2.0.12"
+once_cell   = "1.20.3"
+
+# git source — exercises Cargo's SSH/git fetch machinery (libssh2
+# patch in Rust 1.96.1 is relevant here even for HTTPS git sources
+# because the bundled libssh2 is also compiled for HTTPS-over-TLS
+# credential helpers on some platforms).
+#
+# Real crate: `tinytemplate` is a tiny standalone template engine
+# maintained by bheisler on GitHub; no crates.io release needed
+# because we pin to a specific commit SHA.
+[workspace.dependencies.tinytemplate]
+git = "https://github.com/bheisler/TinyTemplate"
+rev = "v1.2.1"
