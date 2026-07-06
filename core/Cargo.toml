@@ -1,0 +1,15 @@
+[package]
+name    = "probe-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Registry sources — exercises Cargo's registry fetch machinery
+# (timeout/retry fixes in Rust 1.96.1 are relevant here).
+serde     = { workspace = true }
+log       = { workspace = true }
+thiserror = { workspace = true }
+once_cell = { workspace = true }
+
+# git source — exercises Cargo's git fetch / libssh2 path.
+tinytemplate = { workspace = true }
